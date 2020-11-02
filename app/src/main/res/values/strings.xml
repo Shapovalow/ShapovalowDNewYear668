@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ShapovalowDNewYear</string>
+    <string name="TextName">Шаповалов Даниил</string>
+    <string name="HappyNewYear">С новым годом</string>
+    <string name="ThisNewYear">Про новый год</string>
+    <string name="WTF">А это что ещё за страница ?</string>
+    <string name="NewYearImage">Новогодние картинки</string>
+    <string name="MainPage">Главная страница</string>
+</resources>

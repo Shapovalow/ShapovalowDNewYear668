@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWelow"
+    tools:context=".Activity_information">
+
+    <Button
+        android:id="@+id/BtnMainPage"
+        android:layout_width="362dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorBlue"
+        android:text="Главная страница"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMainPage"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="384dp"
+                android:layout_height="1515dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="30dp"
+                android:text="Новый год — главный календарный праздник, наступающий в момент перехода с последнего дня года в первый день следующего года. Отмечается многими народами в соответствии с принятым календарём.  Начало года с 1 января было установлено римским правителем Юлием Цезарем в 46 году до нашей эры. В Древнем Риме этот день был посвящён Янусу — богу выбора, дверей и всех начал. Месяц январь получил своё название в честь бога Януса, которого изображали с двумя лицами: одно смотрело вперёд, а другое — назад. Большинство стран отмечает Новый год 1 января, в первый день года по григорианскому календарю. Новый год с учётом поясного времени начинается в Тихом океане, первой его встречает Республика Кирибати на островах Лайн (часовой пояс UTC+14). Позже всех встречает Новый год население Американского Самоа, островов Мидуэй и Ниуэ (часовой пояс UTC−11) — в Кирибати на островах Лайн в это время уже 2 января и 1 час после полуночи[4]. Некоторые страны отмечают Новый год по лунному календарю[5][6][7].  С 1-го января Новый год впервые отмечается в 153 году до н. э., поскольку с этого дня вступали в должность римские консулы. В 46 году до н. э. римский полководец и верховный жрец Гай Юлий Цезарь ввёл свой новый календарь («юлианский») и окончательно утвердил начало года с 1 января 45 года до н. э. Именно при Цезаре под влиянием астрологии праздник Нового года приобрёл самостоятельное значение временной отметки начала года и, таким образом, положил начало гражданскому году.  1 января — Новый год по григорианскому, юлианскому и новоюлианскому календарям. Между 21 января и 21 февраля (один из дней) — Китайский Новый год (Китай). 21 или 22 марта — Иранский Новый год Навруз (Иран, Азербайджан, Казахстан, Киргизия, Таджикистан, Туркмения, Узбекистан). 14 апреля — бенгальский Новый год (Бангладеш). 163 дня после Песаха (не раньше 5 сентября и не позже 5 октября) — Еврейский праздник Рош ха-Шана (Израиль)."
+                android:textAlignment="center"
+                android:textColor="@color/colorBlackt"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="410dp"
+                android:layout_height="134dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/sani"
+                tools:layout_editor_absoluteX="-2dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
